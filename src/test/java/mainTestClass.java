@@ -70,8 +70,8 @@ class TestClass3 implements Runnable {
   	}
 }
 public class mainTestClass {
-	public static final String USERNAME = "utkarshsharma_TrWReQ";
-	public static final String AUTOMATE_KEY = "WNPGsJTqzzbLCPm5zj9q";
+	public static final String USERNAME = " Use your browserstack username here";
+	public static final String AUTOMATE_KEY = "Use your browserstack ket here ";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	public static void main(String[] args) throws Exception {
 		Thread object1 = new Thread(new TestClass1());
